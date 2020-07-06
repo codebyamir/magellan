@@ -1,0 +1,32 @@
+{
+    "data": [
+      {
+        "hostname": "a.example.com",
+        "ipAddresses": ["1.1.1.1"],
+        "city": "Alpharetta",
+        "state": "Georgia",
+        "country": "United States",
+        "isp": "Sungard Availability Services Lp",
+        "serverSignature": "Apache"
+      },
+      {
+        "hostname": "b.example.com",
+        "ipAddresses": ["2.2.2.2"],
+        "city": "Alpharetta",
+        "state": "Georgia",
+        "country": "United States",
+        "isp": "Sungard Availability Services Lp",
+        "serverSignature": "Microsoft-IIS/8.5 ASP.NET"
+      },
+      {
+        "hostname": "c.example.com",
+        "ipAddresses": ["3.3.3.3"],
+        "city": "Alpharetta",
+        "state": "Georgia",
+        "country": "United States",
+        "isp": "Sungard Availability Services Lp",
+        "serverSignature": "Apache/2.4.7 (Ubuntu)"
+      }
+    ]
+  }
+
