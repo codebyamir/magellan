@@ -12,6 +12,7 @@
       },
       {
         "hostname": "b.example.com",
+        "ipAddresses": ["2.2.2.2", "2.2.2.3"],
         "openPorts": ["80", "443"],
         "city": "Alpharetta",
         "state": "Georgia",
@@ -21,6 +22,7 @@
       },
       {
         "hostname": "c.example.com",
+        "ipAddresses": ["4.4.4.4"],
         "openPorts": ["80", "443"],
         "city": "Islington",
         "state": "England",
