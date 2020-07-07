@@ -22,9 +22,9 @@
       {
         "hostname": "c.example.com",
         "openPorts": ["80", "443"],
-        "city": "Alpharetta",
-        "state": "Georgia",
-        "country": "US",
+        "city": "Islington",
+        "state": "England",
+        "country": "GB",
         "isp": "Sungard Availability Services Lp",
         "serverSignature": "Apache/2.4.7 (Ubuntu)"
       }
