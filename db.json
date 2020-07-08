@@ -7,6 +7,9 @@
         "city": "Alpharetta",
         "state": "Georgia",
         "country": "US",
+        "latitude": 34.02439880371094,
+        "longitude": -84.25240325927734,
+        "asn": "",
         "isp": "Sungard Availability Services Lp",
         "serverSignature": "Apache"
       },
@@ -17,6 +20,9 @@
         "city": "Alpharetta",
         "state": "Georgia",
         "country": "US",
+        "latitude": 34.02439880371094,
+        "longitude": -84.25240325927734,
+        "asn": "",
         "isp": "Sungard Availability Services Lp",
         "serverSignature": "Microsoft-IIS/8.5 ASP.NET"
       },
@@ -27,7 +33,10 @@
         "city": "Islington",
         "state": "England",
         "country": "GB",
-        "isp": "Sungard Availability Services Lp",
+        "latitude": 51.5111083984375,
+        "longitude": -0.03999999910593033,
+        "asn": "15830",
+        "isp": "Telecitygroup International Limited",
         "serverSignature": "Apache/2.4.7 (Ubuntu)"
       }
     ]
