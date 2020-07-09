@@ -2,11 +2,11 @@
     "data": [
         {
             "hostname": "www.mega.com",
-            "ip_addresses": [
+            "ipAddresses": [
                 "54.247.79.157",
                 "1.1.1.1"
             ],
-            "open_ports": [
+            "openPorts": [
                 22,
                 80,
                 443
