@@ -25,7 +25,33 @@
             },
             "isp": "amazon.com, Inc",
             "asn": 16509
-        }
+        },
+        {
+          "hostname": "community.mega.com",
+          "ipAddresses": [
+              "99.84.214.92",
+              "99.84.214.93",
+              "99.84.214.114",
+              "99.84.214.91"
+          ],
+          "openPorts": [
+              80,
+              443
+          ],
+          "applications": [
+              "Apache"
+          ],
+          "tlsVersion": "TLSv1.2",
+          "location": {
+              "city": "Shaw",
+              "state": "Washington",
+              "country": "US",
+              "latitude": 38.906898498535156,
+              "longitude": -77.02839660644531
+          },
+          "isp": "amazon.com, Inc",
+          "asn": 16509
+      }
     ]
   }
 
