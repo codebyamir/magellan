@@ -15,7 +15,7 @@
             ],
             "applications": [
                 "nginx",
-                "OpenSSH_7.2p2"
+                "SSH-2.0-OpenSSH_7.2p2"
             ],
             "tlsVersion": "TLSv1.2",
             "location": {
