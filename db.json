@@ -1,6 +1,5 @@
 {
     "data": [
-      [
         {
             "hostname": "www.mega.com",
             "ip_addresses": [
@@ -27,7 +26,6 @@
             "isp": "amazon.com, Inc",
             "asn": 16509
         }
-    ]
     ]
   }
 
