@@ -1,35 +1,33 @@
 {
     "data": [
-      {
-        "hostname": "a.example.com",
-        "ipAddresses": ["1.1.1.1", "1.1.1.2"],
-        "openPorts": [80, 443],
-        "city": "Alpharetta",
-        "state": "Georgia",
-        "country": "US",
-        "isp": "Sungard Availability Services Lp",
-        "serverSignature": "Apache"
-      },
-      {
-        "hostname": "b.example.com",
-        "ipAddresses": ["2.2.2.2", "2.2.2.3"],
-        "openPorts": [80, 443],
-        "city": "Alpharetta",
-        "state": "Georgia",
-        "country": "US",
-        "isp": "Sungard Availability Services Lp",
-        "serverSignature": "Microsoft-IIS/8.5 ASP.NET"
-      },
-      {
-        "hostname": "c.example.com",
-        "ipAddresses": ["4.4.4.4"],
-        "openPorts": [80, 443],
-        "city": "Islington",
-        "state": "England",
-        "country": "GB",
-        "isp": "Sungard Availability Services Lp",
-        "serverSignature": "Apache/2.4.7 (Ubuntu)"
-      }
+      [
+        {
+            "hostname": "www.mega.com",
+            "ip_addresses": [
+                "54.247.79.157",
+                "1.1.1.1"
+            ],
+            "open_ports": [
+                22,
+                80,
+                443
+            ],
+            "applications": [
+                "nginx",
+                "OpenSSH_7.2p2"
+            ],
+            "tlsVersion": "TLSv1.2",
+            "location": {
+                "city": "Dublin",
+                "state": "Leinster",
+                "country": "IE",
+                "latitude": 53.353889465332,
+                "longitude": -6.24333000183105
+            },
+            "isp": "amazon.com, Inc",
+            "asn": 16509
+        }
+    ]
     ]
   }
 
