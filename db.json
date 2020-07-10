@@ -18,8 +18,12 @@
             "tlsVersion": "TLSv1.2",
             "location": {
                 "city": "Dublin",
-                "state": "Leinster",
-                "country": "IE",
+                "region_code": "L",
+                "region_name": "Leinster",
+                "country_code": "IE",
+                "country_name": "Ireland",
+                "continent_name": "Europe",
+                "continent_code": "EU",
                 "latitude": 53.353889465332,
                 "longitude": -6.24333000183105
             },
@@ -44,8 +48,12 @@
           "tlsVersion": "TLSv1.2",
           "location": {
               "city": "Shaw",
-              "state": "Washington",
-              "country": "US",
+              "region_code": "DC",
+              "region_name": "Washington",
+              "country_code": "US",
+              "country_name": "United States",
+              "continent_code": "NA",
+              "continent_name": "North America",
               "latitude": 38.906898498535156,
               "longitude": -77.02839660644531
           },
