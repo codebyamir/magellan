@@ -3,8 +3,10 @@
         {
             "hostname": "www.mega.com",
             "ipAddresses": [
-                "54.247.79.157",
-                "1.1.1.1"
+              {
+                "ip": "54.247.79.157",
+                "reverseDns": "ec2-54-247-79-157.eu-west-1.compute.amazonaws.com"
+              }
             ],
             "openPorts": [
                 22,
@@ -13,7 +15,7 @@
             ],
             "applications": [
                 "nginx",
-                "OpenSSH_7.2p2"
+                "SSH-2.0-OpenSSH_7.2p2"
             ],
             "tlsVersion": "TLSv1.2",
             "location": {
@@ -33,10 +35,18 @@
         {
           "hostname": "community.mega.com",
           "ipAddresses": [
-              "99.84.214.92",
-              "99.84.214.93",
-              "99.84.214.114",
-              "99.84.214.91"
+            {
+              "ip":  "99.84.214.92",
+              "reverseDns": "server-99-84-214-92.iad79.r.cloudfront.net"
+            },
+            {
+              "ip": "99.84.214.93",
+              "reverseDns": "server-99-84-214-93.iad79.r.cloudfront.net"
+            },
+            {
+              "ip": "99.84.214.114",
+              "reverseDns": "server-99-84-214-114.iad79.r.cloudfront.net"
+            }
           ],
           "openPorts": [
               80,
