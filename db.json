@@ -1,75 +1,582 @@
-{
-    "data": [
-        {
-            "hostname": "www.mega.com",
-            "ipAddresses": [
-              {
-                "ip": "54.247.79.157",
-                "reverseDns": "ec2-54-247-79-157.eu-west-1.compute.amazonaws.com"
-              }
-            ],
-            "openPorts": [
-                22,
-                80,
-                443
-            ],
-            "applications": [
-                "nginx",
-                "SSH-2.0-OpenSSH_7.2p2"
-            ],
-            "tlsVersion": "TLSv1.2",
-            "location": {
-                "city": "Dublin",
-                "region_code": "L",
-                "region_name": "Leinster",
-                "country_code": "IE",
-                "country_name": "Ireland",
-                "continent_name": "Europe",
-                "continent_code": "EU",
-                "latitude": 53.353889465332,
-                "longitude": -6.24333000183105
-            },
-            "isp": "amazon.com, Inc",
-            "asn": 16509
-        },
-        {
-          "hostname": "community.mega.com",
-          "ipAddresses": [
-            {
-              "ip":  "99.84.214.92",
-              "reverseDns": "server-99-84-214-92.iad79.r.cloudfront.net"
-            },
-            {
-              "ip": "99.84.214.93",
-              "reverseDns": "server-99-84-214-93.iad79.r.cloudfront.net"
-            },
-            {
-              "ip": "99.84.214.114",
-              "reverseDns": "server-99-84-214-114.iad79.r.cloudfront.net"
-            }
-          ],
-          "openPorts": [
-              80,
-              443
-          ],
-          "applications": [
-              "Apache"
-          ],
-          "tlsVersion": "TLSv1.2",
-          "location": {
-              "city": "Shaw",
-              "region_code": "DC",
-              "region_name": "Washington",
-              "country_code": "US",
-              "country_name": "United States",
-              "continent_code": "NA",
-              "continent_name": "North America",
-              "latitude": 38.906898498535156,
-              "longitude": -77.02839660644531
+[
+  {
+      "name": "small.library.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 1,
+              "ip": "128.143.20.107",
+              "reverse_dns": "wp.library.virginia.edu.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "arts.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 2,
+              "ip": "192.81.212.122",
+              "reverse_dns": null,
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443,
+          22
+      ],
+      "applications": []
+  },
+  {
+      "name": "hr.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 3,
+              "ip": "54.83.189.142",
+              "reverse_dns": "ec2-54-83-189-142.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          443,
+          22
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "www.hsc.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 4,
+              "ip": "137.54.122.11",
+              "reverse_dns": "path.virginia.edu.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": []
+  },
+  {
+      "name": "its.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 5,
+              "ip": "128.143.125.110",
+              "reverse_dns": "download01.its.virginia.edu.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "eocr.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 6,
+              "ip": "52.87.30.162",
+              "reverse_dns": "ec2-52-87-30-162.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443,
+          22
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "www.studenthealth.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 7,
+              "ip": "52.5.19.216",
+              "reverse_dns": "ec2-52-5-19-216.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
           },
-          "isp": "amazon.com, Inc",
-          "asn": 16509
-      }
-    ]
+          {
+              "id": 8,
+              "ip": "52.44.133.43",
+              "reverse_dns": "ec2-52-44-133-43.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "career.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 7,
+              "ip": "52.5.19.216",
+              "reverse_dns": "ec2-52-5-19-216.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          },
+          {
+              "id": 8,
+              "ip": "52.44.133.43",
+              "reverse_dns": "ec2-52-44-133-43.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "pharm.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 9,
+              "ip": "23.185.0.4",
+              "reverse_dns": null,
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "training.cvrc.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 10,
+              "ip": "128.143.233.130",
+              "reverse_dns": "training.cvrc.virginia.edu.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          21
+      ],
+      "applications": []
+  },
+  {
+      "name": "alumni.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 11,
+              "ip": "104.196.39.114",
+              "reverse_dns": "114.39.196.104.bc.googleusercontent.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.3"
+  },
+  {
+      "name": "www.arch.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 12,
+              "ip": "52.43.106.61",
+              "reverse_dns": "ec2-52-43-106-61.us-west-2.compute.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "www.scps.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 30,
+              "ip": "104.248.63.248",
+              "reverse_dns": null,
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.3"
+  },
+  {
+      "name": "engineering.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 14,
+              "ip": "52.87.65.167",
+              "reverse_dns": "ec2-52-87-65-167.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443,
+          22
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "ipe.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 15,
+              "ip": "128.143.231.23",
+              "reverse_dns": "oldsite.nursing.virginia.edu.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "math.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 16,
+              "ip": "54.85.235.76",
+              "reverse_dns": "ec2-54-85-235-76.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443,
+          22
+      ],
+      "applications": []
+  },
+  {
+      "name": "visitormap.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 17,
+              "ip": "128.143.231.190",
+              "reverse_dns": "visitormap.virginia.edu.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "www.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 18,
+              "ip": "54.227.255.92",
+              "reverse_dns": "ec2-54-227-255-92.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443,
+          22
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "mindtrails.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 19,
+              "ip": "128.143.22.213",
+              "reverse_dns": "ws02.psyc.virginia.edu.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "csc.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 20,
+              "ip": "70.32.23.52",
+              "reverse_dns": "mi3-ls19.a2hosting.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443,
+          21,
+          53,
+          110,
+          143,
+          465,
+          587,
+          993,
+          995,
+          3306,
+          8888
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.3"
+  },
+  {
+      "name": "advising.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 21,
+              "ip": "23.23.98.106",
+              "reverse_dns": "ec2-23-23-98-106.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          },
+          {
+              "id": 22,
+              "ip": "107.23.102.25",
+              "reverse_dns": "ec2-107-23-102-25.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "www.wise.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 23,
+              "ip": "143.60.16.53",
+              "reverse_dns": "uvawise.edu.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": []
+  },
+  {
+      "name": "recsports.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 7,
+              "ip": "52.5.19.216",
+              "reverse_dns": "ec2-52-5-19-216.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          },
+          {
+              "id": 8,
+              "ip": "52.44.133.43",
+              "reverse_dns": "ec2-52-44-133-43.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "med.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 9,
+              "ip": "23.185.0.4",
+              "reverse_dns": null,
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "curry.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 24,
+              "ip": "35.173.142.41",
+              "reverse_dns": "ec2-35-173-142-41.compute-1.amazonaws.com.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "thetaper.library.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 25,
+              "ip": "185.199.108.153",
+              "reverse_dns": null,
+              "location": null,
+              "isp": null,
+              "asn": null
+          },
+          {
+              "id": 26,
+              "ip": "185.199.111.153",
+              "reverse_dns": null,
+              "location": null,
+              "isp": null,
+              "asn": null
+          },
+          {
+              "id": 27,
+              "ip": "185.199.110.153",
+              "reverse_dns": null,
+              "location": null,
+              "isp": null,
+              "asn": null
+          },
+          {
+              "id": 28,
+              "ip": "185.199.109.153",
+              "reverse_dns": null,
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
+  },
+  {
+      "name": "www.fm.virginia.edu",
+      "ip_addresses": [
+          {
+              "id": 29,
+              "ip": "128.143.96.142",
+              "reverse_dns": "www.fm.virginia.edu.",
+              "location": null,
+              "isp": null,
+              "asn": null
+          }
+      ],
+      "open_ports": [
+          80,
+          443,
+          22
+      ],
+      "applications": [],
+      "tls_version": "TLSv1.2"
   }
-
+]
